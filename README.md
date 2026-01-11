@@ -1,1 +1,1 @@
-This repository contains the code for our Chatbot project, completed by Shahil Shrestha and Kajal Kumari Kushwaha. Kajal developed the frontend, including the chat interface, responsive design, and connection to the backend, while Shahil handled the backend and AI/ML part that powers the chatbot.
+This repository contains the Chatbot project by Shahil Shrestha and Kajal Kumari Kushwaha. Kajal handled frontend development, including the chat interface and backend integration, while Shahil managed the backend and AI/ML components powering the chatbot.
