@@ -20,6 +20,9 @@ spec:
       containers:
       - name: chat-app
         image: shahil050/chatapp:latest
+        envFrom:
+        - secretRef:
+            name: chatbot-secrets
         imagePullPolicy: Always
         ports:
         - containerPort: 7860
