@@ -1,24 +1,24 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: chatbot-Deployment
+  name: chat-app
   labels:
-    app: chatbot
+    app: chat-app
 
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: chatbot
+      app: chat-app
   
   template:
     metadata:
       labels:
-        app: chatbot
+        app: chat-app
     
     spec:
       containers:
-      - name: chatbot-container
+      - name: chat-app
         image: shahil050/chatapp:latest
         imagePullPolicy: Always
         ports:
