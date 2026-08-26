@@ -1,24 +1,24 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: chat-app
+  name: chatapp
   labels:
-    app: chat-app
+    app: chatapp
 
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: chat-app
+      app: chatapp
   
   template:
     metadata:
       labels:
-        app: chat-app
+        app: chatapp
     
     spec:
       containers:
-      - name: chat-app
+      - name: chatapp
         image: shahil050/chatapp:latest
         envFrom:
         - secretRef:
